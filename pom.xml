@@ -11,6 +11,15 @@
     <description>package main pom</description>
     <packaging>pom</packaging>
 
+    <modules>
+        <module>package-web</module>
+        <module>package-facade</module>
+        <module>package-service</module>
+        <module>package-manager</module>
+        <module>package-dal</module>
+        <module>package-common</module>
+    </modules>
+
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
